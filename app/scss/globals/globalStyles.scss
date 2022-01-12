@@ -1,0 +1,9 @@
+@use "../util/" as *;
+
+// Sizes of fonts globally
+
+@include breakpoint-down(medium) {
+  html {
+    font-size: 12px;
+  }
+}
