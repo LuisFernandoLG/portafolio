@@ -1,9 +1,16 @@
+@use "../../util/" as *;
+
 .hero-texts {
   &__name {
     font-size: 7rem;
     font-weight: var(--font-extra-bold);
     color: var(--font-color);
     line-height: 7rem;
+
+    // Responsive
+    @include breakpoint-down(medium) {
+      text-align: center;
+    }
   }
 
   &__description {
@@ -18,13 +25,25 @@
       font-weight: var(--font-extra-bold);
       color: var(--primary-color);
     }
+
+    // Responsive
+    @include breakpoint-down(medium) {
+      text-align: center;
+      margin: 2rem 0;
+    }
   }
 
   &__contact-btn {
+    display: block;
     font-weight: var(--font-extra-bold);
     background: var(--primary-color);
     color: var(--tertiary-color);
     padding: 1rem 2rem;
     border-radius: 0.5rem;
+
+    // Responsive
+    @include breakpoint-down(medium) {
+      margin: 0 auto;
+    }
   }
 }
