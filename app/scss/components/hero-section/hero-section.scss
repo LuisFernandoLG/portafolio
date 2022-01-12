@@ -1,0 +1,13 @@
+@forward "hero-texts";
+@forward "hero-photo";
+
+.hero-section {
+  padding: 5rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+
+  background-color: var(--tertiary-color);
+}

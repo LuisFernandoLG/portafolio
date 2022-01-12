@@ -1,0 +1,17 @@
+:root {
+  --photo-size: 20rem;
+}
+
+.hero-photo {
+  width: var(--photo-size);
+  height: var(--photo-size);
+
+  outline: 1rem solid var(--primary-color);
+  border-radius: 100%;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    filter: grayscale(100%);
+  }
+}
