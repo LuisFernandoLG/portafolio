@@ -1,0 +1,23 @@
+@forward "proyectsContainer";
+@forward "proyect";
+
+.proyects-section {
+  padding: 4rem 0;
+
+  &__title,
+  &__subtitle {
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: var(--font-bold);
+    font-size: var(--title-size);
+  }
+
+  &__subtitle {
+    font-weight: var(--subtitle-size);
+    font-size: 1.5rem;
+
+    margin-bottom: 2rem;
+  }
+}
