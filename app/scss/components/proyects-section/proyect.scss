@@ -16,9 +16,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0 0 40px -25px var(--font-color);
   }
 
   &:hover {
-    padding: 2rem;
+    padding: 1.5rem;
   }
 }
